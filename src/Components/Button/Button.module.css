@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #e0c521;
+}
+
+.button {
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    width: 12px;
+    margin-left: 10px;
+    box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
+    cursor: pointer;
+    box-sizing: border-box;
+    width: fit-content;
+    min-width: 50px;
+}
+
+.button.add {
+    background-color: var(--primary-color);
+}
+
+.button.remove {
+    background-color: tomato;
+}
+
+.button.checkout {
+    background-color: rgb(38, 121, 38);
+    width: 150px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.button.add:hover {
+    background-color: #cab320;
+}
+
+.button.add:active {
+    background-color: #ad9a1c;
+}
+
+.button.remove:hover {
+    background-color: rgb(209, 83, 61);
+}
+
+.button.remove:active {
+    background-color: rgb(185, 73, 54);
+}
+
+.button.checkout:hover {
+    background-color: rgb(41, 141, 41);
+}
+
+.button.checkout:active {
+    background-color: rgb(30, 93, 41);
+}
